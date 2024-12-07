@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proguid.controller.HelloController">
+   <children>
+      <!-- Immagine -->
+      <ImageView fx:id="IMAGE1" fitHeight="300.0" fitWidth="600.0" />
+      <Text fill="#2d2e2f" fontSmoothingType="LCD" layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P &amp; P Barber">
+         <font>
+            <Font name="Harrington" size="35.0" />
+         </font>
+      </Text>
+      <!-- Login Section -->
+      <Label layoutX="250.0" layoutY="320.0" text="LOGIN">
+         <font>
+            <Font name="Kristen ITC" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="150.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Kristen ITC" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usernameField" layoutX="250.0" layoutY="350.0" prefHeight="31.0" prefWidth="200.0" />
+      <Text layoutX="150.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Kristen ITC" size="17.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwordField" layoutX="250.0" layoutY="400.0" prefHeight="31.0" prefWidth="200.0" />
+      <Button fx:id="loginButton" layoutX="200.0" layoutY="470.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #0000FF;" text="LOGIN" textFill="WHITE" />
+      <Button fx:id="cancelButton" layoutX="320.0" layoutY="470.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #0000FF;" text="CANCEL" textFill="#fcf5f5" />
+   </children>
+</AnchorPane>
